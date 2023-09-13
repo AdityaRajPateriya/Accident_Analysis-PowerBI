@@ -39,7 +39,13 @@ Clients want to create a Road Accident Dashboard for Year 2021 and 2022 to gain 
 
 ## Implementation
 
-Please refer to the project's code and data files for implementation details.
+   - After cleaning data first create a new table Calender which will contain columns such as date , month , year and connect it with main column
+   - then create another table named Measure which will we use to store different measures for calculation \
+   - Curr Year Casulities = TOTALYTD(sum(Table1[Number_of_Casualties]),calender[Date])
+   - Past Year Casulities = CALCULATE(sum(Table1[Number_of_Casualties]),SAMEPERIODLASTYEAR(calender[Date]))
+   - YOY Casualties = ([Curr Year Casulities]-[Past Year Casulities])/[Past Year Casulities]
+   - similar steps with the accident column
+   - Then draw different visuals 
 
 ## Data Sources
 
