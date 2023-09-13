@@ -48,8 +48,8 @@ Clients want to create a Road Accident Dashboard for Year 2021 and 2022 to gain 
    - Then draw different visuals 
 
 ## Data Sources
+![Alt Text](https://github.com/AdityaRajPateriya/Accident_Analysis-PowerBI/blob/4420137e8a814c012be580c9f0aed0ae7250d118/Screenshot%20(73).png)
 
-The dashboard will utilize data sources related to road accidents and casualties for the years 2021 and 2022.
 
 ## Usage
 
